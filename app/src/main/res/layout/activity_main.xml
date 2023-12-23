@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:id="@+id/tw_welcom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Welcome"
+            android:textColor="#DAA520"
+            android:textSize="60dp"
+            android:fontFamily="@font/nickainley_normal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text=" 'Buy things you love' "
+            android:textSize="27dp"
+            android:textColor="#DAA520"
+            android:textStyle="italic"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_welcome"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="180dp"
+        android:layout_gravity="center"
+        android:text="Lets go"
+        android:textSize="25dp" />
+</LinearLayout>
